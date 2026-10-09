@@ -9,10 +9,10 @@ flowchart
     more["...?"]
   end
   subgraph clients
-    subgraph browser
+    subgraph browser-based applications
       fdp-client["FDP-client"]
       fdp-ui["FDP-UI"]
-      swagger["FDP Swagger API docs"]
+      swagger["FDP API docs (Swagger-UI)"]
     end
 %%    subgraph command line
 %%      curl["curl"]
@@ -20,7 +20,7 @@ flowchart
     subgraph tools
       meta2fdp["meta2fdp"]
     end
-    subgraph web applications
+    subgraph server-based applications
       fdp-index["FDP-index"]
     end
   end
