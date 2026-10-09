@@ -1,0 +1,31 @@
+flowchart
+  subgraph specification
+    fdp-specs[FDP specification v1.2]
+  end
+  subgraph implementations
+    fdp["FDP<br>Reference Implementation"]
+    doc["Document-based FDP"]
+    molgenis["Molgenis"]
+    other-implementation["...?"]
+  end
+  subgraph clients
+    subgraph browser-based applications
+      fdp-client["FDP-client"]
+      fdp-ui["FDP-UI"]
+      swagger["FDP API docs (Swagger-UI)"]
+      other-browser[...?]
+    end
+    subgraph tools
+      meta2fdp["LUMC DCC<br>meta2fdp"]
+      hri-schema["Health-RI<br>FairDataPointSchemaTool"]
+      other-tool["...?"]
+    end
+    subgraph server-based applications
+      fdp-index["FDP-index"]
+      hri-catalog["Health-RI<br>Data Catalogue"]
+      other-server[...?]
+    end
+  end
+
+  implementations -- implement --> specification
+  clients -- interact with --> implementations
