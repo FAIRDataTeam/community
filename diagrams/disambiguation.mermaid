@@ -3,41 +3,29 @@ flowchart
     fdp-specs[FDP specification v1.2]
   end
   subgraph implementations
-    fdp["FDP reference implementation"]
+    fdp["FDP<br>Reference Implementation"]
     doc["Document-based FDP"]
-    molgenis["Molgenis?"]
-    more["...?"]
+    molgenis["Molgenis"]
+    other-implementation["...?"]
   end
   subgraph clients
     subgraph browser-based applications
       fdp-client["FDP-client"]
       fdp-ui["FDP-UI"]
       swagger["FDP API docs (Swagger-UI)"]
+      other-browser[...?]
     end
-%%    subgraph command line
-%%      curl["curl"]
-%%    end
     subgraph tools
-      meta2fdp["meta2fdp"]
+      meta2fdp["LUMC DCC<br>meta2fdp"]
+      hri-schema["Health-RI<br>FairDataPointSchemaTool"]
+      other-tool["...?"]
     end
     subgraph server-based applications
       fdp-index["FDP-index"]
+      hri-catalog["Health-RI<br>Data Catalogue"]
+      other-server[...?]
     end
   end
 
-  fdp -- implements --> fdp-specs
-  doc -- implements --> fdp-specs
-  molgenis -- implements --> fdp-specs
-  more -- implements --> fdp-specs
-
-  fdp-client -- uses API --> fdp
-  fdp-ui -- uses API --> fdp
-  swagger -- uses API --> fdp
-
-%%  curl -- uses API --> fdp
-
-  meta2fdp -- uses API --> fdp
-  fdp-index -- interacts with --> fdp
-  fdp-index -- interacts with --> doc
-  fdp-index -- interacts with --> molgenis
-  fdp-index -- interacts with --> more
+  implementations -- implement --> specification
+  clients -- interact with --> implementations
