@@ -3,20 +3,20 @@
 This repository provides an overview of the FAIR Data Point (FDP) ecosystem.
 It also provides a place for high-level [discussions] and documents.
 
-## Ecosystem
+## FDP ecosystem
 
 For an overview of all repositories, visit the [FAIRDataTeam] organization page.
 
 Here's a summary of the core repositories:
 
-- [fdp-specs/fdp-specs.github.io] (FDP-spec):
+- [fdp-specs/fdp-specs.github.io] (fdp-spec):
   The source of the [FDP specification].
-- [FAIRDataTeam/FAIRDataPoint] (FDP-ri):
-  The server-based FDP *reference implementation* of the [FDP specification].
+- [FAIRDataTeam/FAIRDataPoint] (fdp-ri):
+  The server-based *reference implementation* of the [FDP specification].
   Also contains the FDP-index application.
-- [FAIRDataTeam/FAIRDataPoint-UI] (FDP-ui):
+- [FAIRDataTeam/FAIRDataPoint-UI] (fdp-ui):
   A browser-based user interface for the FDP *reference implementation*. (*under construction*)
-- [FAIRDataTeam/FAIRDataPoint-client] (FDP-client):
+- [FAIRDataTeam/FAIRDataPoint-client] (fdp-client):
   A browser-based user interface for the FDP. (*legacy*)
 
 Tools:
