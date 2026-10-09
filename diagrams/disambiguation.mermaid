@@ -1,0 +1,43 @@
+flowchart
+  subgraph specification
+    fdp-specs[FDP specification v1.2]
+  end
+  subgraph implementations
+    fdp["FDP reference implementation"]
+    doc["Document-based FDP"]
+    molgenis["Molgenis?"]
+    more["...?"]
+  end
+  subgraph clients
+    subgraph browser
+      fdp-client["FDP-client"]
+      fdp-ui["FDP-UI"]
+      swagger["FDP Swagger API docs"]
+    end
+%%    subgraph command line
+%%      curl["curl"]
+%%    end
+    subgraph tools
+      meta2fdp["meta2fdp"]
+    end
+    subgraph web applications
+      fdp-index["FDP-index"]
+    end
+  end
+
+  fdp -- implements --> fdp-specs
+  doc -- implements --> fdp-specs
+  molgenis -- implements --> fdp-specs
+  more -- implements --> fdp-specs
+
+  fdp-client -- uses API --> fdp
+  fdp-ui -- uses API --> fdp
+  swagger -- uses API --> fdp
+
+%%  curl -- uses API --> fdp
+
+  meta2fdp -- uses API --> fdp
+  fdp-index -- interacts with --> fdp
+  fdp-index -- interacts with --> doc
+  fdp-index -- interacts with --> molgenis
+  fdp-index -- interacts with --> more
