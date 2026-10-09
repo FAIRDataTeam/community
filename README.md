@@ -11,9 +11,9 @@ Here's a summary of the core repositories:
 
 - [fdp-specs/fdp-specs.github.io] (fdp-spec):
   The source of the [FDP specification].
-- [FAIRDataTeam/FAIRDataPoint] (fdp-ri):
+- [FAIRDataTeam/FAIRDataPoint] (fdp):
   The server-based *reference implementation* of the [FDP specification].
-  Also contains the FDP-index application.
+  This is the core FDP application, providing a web API for metadata management, including Swagger-UI documentation, and optional index functionality.
 - [FAIRDataTeam/FAIRDataPoint-UI] (fdp-ui):
   A browser-based user interface for the FDP *reference implementation*. (*under construction*)
 - [FAIRDataTeam/FAIRDataPoint-client] (fdp-client):
