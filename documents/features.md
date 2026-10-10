@@ -1,13 +1,15 @@
 # FAIR Data Point requirements and features
 
-## FDP implementation
+## FDP specification
 
 From the [FDP specification v1.2]:
 
 >The main goal of the FDP is to establish a common method for metadata provisioning and accessing and, as a consequence, provide to client applications a predictable way of accessing and interacting with metadata content.
 >To fulfill this goal, this document contains a set of specifications *to help developers to extend the functionality of their applications* so these applications can also *behave as a FAIR Data Point*.
 
-There are many ways to implement this specification:
+## FDP implementation
+
+There are many ways to implement the [FDP specification v1.2]:
 
 - **Act like an FDP**:
   Extend the functionality of an existing application so it behaves as an FDP.
