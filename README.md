@@ -5,6 +5,10 @@ It also provides a place for high-level [discussions] and documents.
 
 ## FDP ecosystem
 
+If you're looking for an overview of the FDP ecosystem, take a look at the [ecosystem diagram].
+
+To learn how the FDP specification relates to various implementations, read the [requirements and features] document.
+
 For an overview of all repositories, visit the [FAIRDataTeam] organization page.
 
 Here's a summary of the core repositories:
@@ -19,7 +23,7 @@ Here's a summary of the core repositories:
 - [FAIRDataTeam/FAIRDataPoint-client] (fdp-client):
   A browser-based user interface for the FDP. (*legacy*)
 
-Tools:
+These are some useful tools:
 
 - [LUMC-DCC/meta2fdp]:
   A Python framework for extracting and transforming metadata, and publishing it to an FDP instance
@@ -35,3 +39,5 @@ Tools:
 [fdp-specs/fdp-specs.github.io]: https://github.com/fdp-specs/fdp-specs.github.io
 [FDP specification]: https://fdp-specs.github.io
 [LUMC-DCC/meta2fdp]: https://github.com/LUMC-DCC/meta2fdp
+[requirements and features]: ./documents/features.md
+[ecosystem diagram]: ./diagrams/ecosystem.mermaid
