@@ -7,7 +7,7 @@ From the [FDP specification v1.2]:
 >The main goal of the FDP is to establish a common method for metadata provisioning and accessing and, as a consequence, provide to client applications a predictable way of accessing and interacting with metadata content.
 >To fulfill this goal, this document contains a set of specifications *to help developers to extend the functionality of their applications* so these applications can also *behave as a FAIR Data Point*.
 
-## FDP implementation
+## FDP implementations
 
 There are many ways to implement the [FDP specification v1.2]:
 
@@ -19,10 +19,10 @@ There are many ways to implement the [FDP specification v1.2]:
   The [FDP reference implementation] was built by the creators of the FDP specification as an example of a fully featured application that conforms to the FDP specification.
   This implementation contains many convenient features that are *not* required by the specification.
 
->[!IMPORTANT]
->The [FDP specification v1.2] defines the required behavior of the *server* side.
->It does *not* define any requirements for *client* applications.
->For this reason, the [FDP client], [FDP UI], and FDP-index are not considered part of the [FDP reference implementation].
+  >[!IMPORTANT]
+  >The [FDP specification v1.2] defines the required behavior of the *server* side.
+  >It does *not* define any requirements for *client* applications.
+  >For this reason, the [FDP client], [FDP UI], and FDP-index are not considered part of the [FDP reference implementation].
 
 An overview of FDP requirements and optional features can be found in the table below.
 
