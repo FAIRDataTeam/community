@@ -39,13 +39,13 @@ An overview of FDP requirements and optional features can be found in the table 
 | metadata links to profile with SHACL shapes | ✓ | ✓ | ✓ |
 | SHACL shapes target `dcat:Resource` | ✓ | ✓ | ✓ |
 | LDP containment statements | ✓ | ✓ | ✓ |
+| metadata access control | ?<sup>*</sup> | ?<sup>**</sup> | ✓ |
 | HTTP GET metadata | ✓ | ✓ | ✓ |
 | HTTP POST metadata |   |   | ✓ |
 | HTTP PUT metadata |   |   | ✓ |
 | HTTP PATCH metadata |   |   |   |
 | HTTP DELETE metadata |   |   | ✓ |
 | OpenAPI/Swagger-UI API docs |   |   | ✓ |
-| metadata access control | ?<sup>*</sup> | ?<sup>**</sup> | ✓ |
 | user management |   |   | ✓ | 
 | settings management |   |   | ✓ |
 | basic search |   |   | ✓ |
