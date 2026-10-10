@@ -9,20 +9,20 @@ From the [FDP specification v1.2]:
 
 ## FDP implementations
 
-There are many ways to implement the [FDP specification v1.2]:
+There are many ways to implement the [FDP specification v1.2], for example:
 
 - **Act like an FDP**:
   Extend the functionality of an existing application so it behaves as an FDP.
-- **Document-based FDP**:
+- **Set up a document-based FDP**:
   As a minimal implementation, you can set up a static-file server that serves simple text documents containing the required RDF metadata.
-- **FDP reference implementation**:
+- **Use the FDP reference implementation**:
   The [FDP reference implementation] was built by the creators of the FDP specification as an example of a fully featured application that conforms to the FDP specification.
   This implementation contains many convenient features that are *not* required by the specification.
 
-  >[!IMPORTANT]
-  >The [FDP specification v1.2] defines the required behavior of the *server* side.
-  >It does *not* define any requirements for *client* applications.
-  >For this reason, the [FDP client], [FDP UI], and FDP-index are not considered part of the [FDP reference implementation].
+>[!IMPORTANT]
+>The [FDP specification v1.2] defines the required behavior of the *server* side.
+>It does *not* define any requirements for *client* applications.
+>For this reason, the [FDP client], [FDP UI], and FDP-index are not considered part of the [FDP reference implementation].
 
 An overview of FDP requirements and optional features can be found in the table below.
 
