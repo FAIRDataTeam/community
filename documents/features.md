@@ -50,7 +50,8 @@ An overview of FDP requirements and optional features can be found in the table 
 | settings management |   |   | ✓ |
 | basic search |   |   | ✓ |
 | SPARQL query |   |   | ✓ |
-| triple store |   |   | ✓ |
+| triple store backend |   |   | ✓ |
+| modular resource definitions |   |   | ✓ |
 | fdp-index functionality |   |   | ✓ |
 | factory reset option |   |   | ✓ |
 | label service |   |   | ✓ |
