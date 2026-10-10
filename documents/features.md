@@ -22,7 +22,7 @@ There are many ways to implement the [FDP specification v1.2], for example:
 >[!IMPORTANT]
 >The [FDP specification v1.2] defines the required behavior of the *server* side.
 >It does *not* define any requirements for *client* applications.
->For this reason, the [FDP client], [FDP UI], and FDP-index are not considered part of the [FDP reference implementation].
+>For this reason, the [FDP client] and [FDP UI] are not considered part of the [FDP reference implementation].
 
 An overview of FDP requirements and optional features can be found in the table below.
 
@@ -52,7 +52,7 @@ An overview of FDP requirements and optional features can be found in the table 
 | SPARQL query |   |   | ✓ |
 | triple store backend |   |   | ✓ |
 | modular resource definitions |   |   | ✓ |
-| fdp-index functionality |   |   | ✓ |
+| FDP-index functionality |   |   | ✓ |
 | factory reset option |   |   | ✓ |
 | label service |   |   | ✓ |
 | autocomplete service |   |   | ✓ |
