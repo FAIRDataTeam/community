@@ -10,17 +10,20 @@ flowchart
   end
   subgraph clients
     subgraph browser-based applications
+      direction TB
       fdp-client["FDP-client"]
       fdp-ui["FDP-UI"]
       swagger["FDP API docs (Swagger-UI)"]
       other-browser[...?]
     end
     subgraph tools
+      direction TB
       meta2fdp["LUMC DCC<br>meta2fdp"]
       hri-schema["Health-RI<br>FairDataPointSchemaTool"]
       other-tool["...?"]
     end
     subgraph server-based applications
+      direction TB
       fdp-index["FDP-index"]
       hri-catalog["Health-RI<br>Data Catalogue"]
       other-server[...?]
