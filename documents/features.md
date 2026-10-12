@@ -46,6 +46,7 @@ An overview of FDP requirements and optional features can be found in the table 
 | HTTP PATCH metadata |   |   |   |
 | HTTP DELETE metadata |   |   | ✓ |
 | OpenAPI/Swagger-UI API docs |   |   | ✓ |
+| metadata validation |   |   | ✓ |
 | user management |   |   | ✓ | 
 | settings management |   |   | ✓ |
 | basic search |   |   | ✓ |
